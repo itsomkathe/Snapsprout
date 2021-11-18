@@ -1,0 +1,120 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.parentStat{
+        min-height: 100%;
+        width: 35vw;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        flex-grow: 1;
+        flex-shrink: 1;
+}
+
+.statWrapper{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+}
+
+.statContainer{
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        width: 100%;
+        justify-content: flex-start;
+}
+
+.statBox{
+        width: 8vw;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        padding-top: 0.5rem;
+        overflow: hidden;
+}
+
+.statBox h3, h6{
+        background-color: transparent;
+        cursor: pointer;
+}
+
+.statBox h3{
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        padding: 0.5rem;
+}
+
+.statBox h6{
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        padding-left: 0.5rem;
+}
+
+.stats-loading-animation{
+        margin-top: 0.6rem;
+        height: 50%;
+        width: 50%;
+        background: transparent;
+}
+
+.stats-loading-animation svg{
+        background: transparent;
+}
+
+#postStats{
+        background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgb(96, 0, 206) 56.1% );
+}
+
+#followerStats{
+        background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgb(0, 153, 255) 0%, rgba(2,83,185,1) 100.2% );
+}
+
+#followingStats{
+        background-image: linear-gradient( 109.6deg,  rgb(67, 184, 110) 11.2%, rgba(24,138,141,1) 91.1% );
+}
+
+
+/*    NAME    AND    DESCRIPTION    SECTION  */
+
+.profilename{
+        min-height: 100%;
+        overflow: hidden;
+        flex-grow: 1;
+        align-self: flex-start;
+}
+
+.displayname{
+        font-weight: 400;
+        font-size: 2rem;
+        margin-top: 1rem;
+        color: white;
+}
+#displayusername{
+        font-size: 1rem;
+        font-weight: 300;
+        color: rgb(187, 187, 187);
+        margin-top: 0rem;
+        cursor: pointer;
+}
+
+.para{
+        margin-top: 1rem;
+        width: 100%;
+
+}
+
+.para p{
+        word-wrap: break-word;
+        font-size: 0.9rem;
+        font-weight: 400;
+        width: 100%;
+}

@@ -1,0 +1,40 @@
+@font-face{
+  font-family: 'HelveticaNeue';
+  src:local('HelveticaNeue')
+      url(./resources/fonts/HelveticaNeueMed.ttf)format('ttf');
+}
+
+*{
+  background-color: #0c0c0c;
+  color: rgb(187, 187, 187);
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(61, 61, 61);
+  background: rgb(255, 255, 255);
+}
+
+::selection {
+  color: rgb(61, 61, 61);
+  background: rgb(255, 255, 255);
+}
+
+#root{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(43, 43, 43);
+  border-radius: 0.3rem;
+  width: 1rem;
+  height: 3rem;
+}
+
+

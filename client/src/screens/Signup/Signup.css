@@ -1,0 +1,157 @@
+*{
+        font-family: 'HelveticaNeue';
+        font-weight: 300;
+        color: rgb(187, 187, 187);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+.signup-container{
+        margin: auto;
+        width: 30vw;
+        min-height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 15vh;
+        margin-bottom: 1.5rem;
+}
+
+.signup-container input,button{
+        outline: none;
+        border: none;
+}
+
+.signup-container h1{
+        font-size: 3rem;
+        font-weight: 400;
+        
+        background-color: #f3ec78;
+        background-image: linear-gradient( 109.2deg,  rgba(107,52,255,1) 16.5%, rgba(51,159,247,1) 81% );  
+        background-clip: text;      
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        flex-shrink: 0;
+
+}
+.signup-container h5{
+        color: rgb(109, 109, 109);
+        cursor: pointer;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+}
+
+.signup-form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+}
+
+.signup-form input{
+        background-color: rgb(41, 41, 41);
+        width: 90%;
+        height: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0.5rem;  
+        font-weight: 400;  
+        margin-top: 0.7rem;
+}
+
+.signup-username{
+        text-transform: lowercase;
+}
+
+.signup-submit{
+        background-color: rgb(6, 94, 209);
+        width: 40%;
+        height: 2rem;
+        font-weight: 400;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+}
+
+
+.signup-container h6{
+        color: rgb(109, 109, 109);
+        font-size: 0.8rem;
+        cursor: pointer;
+        margin-top: 0.5rem;
+}
+
+.signup-message{
+        background-color: rgb(233, 42, 42);
+        width: 100%;
+        height: 2rem;
+        width: 30vw;
+        margin: auto;
+        line-height: 2rem;
+        text-align: center;
+        border-radius: 0.5rem;  
+}
+
+
+
+.signup-message h3{
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        font-size: 0.9rem;
+        background-color: transparent;
+        font-weight: 400;
+}
+
+@media all and (max-width:600px){
+        .signup-container{
+                width: 90%;
+                align-items: center;
+        }
+        .signup-container h5{
+                font-size: 0.8rem;
+        }
+        .signup-submit{
+                width: 40vw;
+                height: 1.8rem;
+        }
+        .signup-form{
+                align-items: center;
+        }
+        .signup-message{
+                width: 90vw;
+        }
+
+}
+
+@media (min-width: 601px) and (max-width: 1200px){
+        .signup-container{
+                width: 90%;
+        }
+
+        .signup-container input{
+                width: 50%;
+        }
+
+        .signup-submit{
+                width: 20vw;
+        }
+         .signup-message{
+                 margin-left: 2rem;
+                 width: 40vw;
+         }
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}

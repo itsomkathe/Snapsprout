@@ -1,0 +1,163 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.post-parent{
+        width: 35vw;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 1rem;
+        justify-content: space-between;
+        overflow: hidden;
+}
+
+.post-header{
+        display: flex;
+        height: 3rem;
+        align-items: center;
+}
+
+.post-picAndName h5{
+        font-size: 1.2rem;  
+        font-weight: 400; 
+        margin-left: 0.5rem;
+        color: rgb(124, 124, 124);
+        cursor: pointer;
+}
+
+.post-image{
+        flex-shrink: 0;
+        height: 60vh;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 1rem;
+}
+
+.post-image img{
+        height: 100%;
+        width: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 1rem;
+
+}
+
+.post-operations{
+        height: 2rem;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        padding-top: 0.5rem;
+}
+
+.post-comment-icon{
+        margin-left: 1rem;
+}
+.post-operations img{
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+}
+
+.post-contentBox{
+        height: 100%;
+        overflow: hidden;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        flex-grow: 1;
+        padding-bottom: 1rem;
+}
+
+.post-likenums{
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+}
+
+.post-title{
+        font-weight: 400;
+        font-size: 1.2rem;
+        
+        color: rgb(224, 224, 224);
+        margin-top: 0.5rem;
+        cursor: text;
+        -webkit-font-smoothing: antialiased !important;
+
+}
+
+.post-description{
+        min-height: 1rem;
+        overflow: hidden;
+        font-weight: 400;
+        font-size: 0.8rem;
+        flex-grow: 1;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        color: rgb(124, 124, 124);
+        cursor: text;
+}
+
+.post-comment-section{
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0.5rem;
+        margin-top: 0rem;
+        margin: auto;
+        height: 2rem;
+        display: flex;
+        justify-content: space-between;
+        background: transparent;
+}
+
+.post-comment-inp{
+        width: 90%;
+        margin-top: 0rem;
+        background: transparent;
+        border: none;
+        outline: none;
+        background-color: rgb(31, 31, 31);
+        height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-weight: 400;
+        color: white;
+        border-radius: 0.5rem;
+}
+
+.post-comment-btn{
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+}
+
+
+
+@media all and (max-width: 600px) {
+        .post-parent{
+                width: 95vw;
+        }
+
+        .post-image{
+                height: 50vh;
+        }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+        .post-parent{
+                width: 85vw;
+        }
+
+        .post-image{
+                height: 60vh;
+        }
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.imageclass{
+        height: 13rem;
+        width: 13rem;
+}
+
+.imageclass img{
+        height: 13rem;
+        width: 13rem;
+        object-fit: cover;
+        border-radius: 2rem;
+}

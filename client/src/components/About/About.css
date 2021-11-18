@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container {
+    margin: auto;
+    height: 100vh;
+    width: 35vw;
+    text-align: start;
+    word-wrap: break-word;
+    margin-top: 4rem;
+}
+
+.about-heading {
+    font-weight: 400;
+    font-size: 4rem;
+
+    background-image: linear-gradient(
+        109.2deg,
+        rgb(116, 66, 255) 16.5%,
+        rgb(42, 212, 255) 81%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.about-para {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(207, 207, 207);
+    text-align: start;
+    letter-spacing: 0.01rem;
+}
+
+.about-license {
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgb(161, 161, 161);
+}
+
+.about-container a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(3, 135, 243);
+}
+
+.about-access-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.about-access-buttons button {
+    background-color: rgb(0, 92, 196);
+    height: 2rem;
+    width: 8rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#about-github-button {
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+}
+#about-github-button img {
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+}
+
+@media all and (max-width: 600px) {
+    .about-container {
+        width: 90vw;
+    }
+    .about-heading {
+        font-size: 3rem;
+    }
+    .about-para {
+        font-size: 0.9rem;
+    }
+    .about-license {
+        font-size: 0.7rem;
+    }
+    .about-access-buttons button {
+        width: 6rem;
+        height: 1.8rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .about-container {
+        width: 60vw;
+    }
+    .about-heading {
+        font-size: 4rem;
+    }
+    .about-para {
+        font-size: 0.9rem;
+    }
+    .about-license {
+        font-size: 0.7rem;
+    }
+}

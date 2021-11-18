@@ -1,0 +1,166 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.introContainer{
+        width: 50vw;
+        min-height: 35vh;
+        display: flex;
+        margin: auto;
+        margin-top: 3vh;
+        justify-content: space-between;
+        overflow: hidden;
+        flex-shrink: 0;
+        flex-grow: 1;
+}
+
+.imageandbtn{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+}
+
+.introButton{
+        margin-top: 1rem;
+        background-color: rgb(6, 94, 209);
+        color: white;
+        font-weight: 400;
+        width: 12rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.follow-loading{
+        background-color: transparent;
+        width: 20%;
+        height: 70%;
+}
+
+.follow-loading svg{
+        background-color: transparent;
+}
+
+.follow-text{
+        background-color: transparent;
+        font-weight: 400;
+}
+
+
+@media all and (max-width: 600px){
+        .introContainer{
+                width: 100vw;
+                min-height: 10vh;
+        }
+        .imageandbtn{
+                width: 30vw;
+                margin-left: 1rem;
+
+        }
+        .imageclass img{
+                height: 7rem;
+                width: 7rem;
+                border-radius: 1.5rem;
+        }
+        .imageclass{
+                height: 7rem;
+                width: 7rem;
+        }
+        .introButton{
+                width: 6rem;
+                height: 1.8rem;
+                font-size: 0.7rem;
+        }
+
+        .statContainer{
+                width: 100%;
+        }
+
+        .statWrapper{
+                width: 95%;
+                justify-content: space-between;
+        }
+
+        .statBox{
+                width: 17vw;
+                border-radius: 0.6rem;
+        }
+        .statBox h3{
+                font-size: 1.5rem;
+                padding: 0;
+                margin-left: 0.5rem;
+        }
+        .statBox h6{
+                font-size: 0.5rem;
+                font-weight: 300;
+                padding: 0;
+                margin-left: 0.5rem;
+        }
+
+        .stats-loading-animation{
+                margin-top: 0.2rem;
+        }
+
+        .profilename{
+                margin-left: 0;
+        }
+        #displayusername{
+                font-size: 0.5rem;
+                font-weight: 400;
+                letter-spacing: 0.001rem;
+                color: rgb(187, 187, 187);
+                margin-top: 0rem;
+        }
+        .profilename h3{
+                font-size: 1.2rem;
+        }
+        .para p{
+                font-size: 0.6rem;
+        }
+        .para{
+                margin-top: 0.1rem;
+        }
+
+        .parentStat{
+                width: 100%;
+        }
+        .statsandname{
+                width: 60%;
+                margin-right: 0.5rem;
+        }
+}
+
+@media (min-width: 601px) and (max-width: 1200px){
+        .introContainer{
+                width: 90vw;
+        }
+        .statsandname{
+                width: 60%;
+        }
+        .statContainer{
+                width: 100%;
+        }
+
+        .statWrapper{
+                width: 95%;
+                justify-content: space-between;
+        }
+        .statBox{
+                width: 15vw;
+        }
+        .introButton{
+                height: 2rem;
+        }
+        .profilename h3{
+                font-size: 2.5rem;
+        }
+}
+
+
