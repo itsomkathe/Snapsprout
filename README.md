@@ -1,5 +1,5 @@
 <p align = "left">
-<img height="80px" align = "center" src = "server/client\src\resources\icons\logodouble.svg"/>
+<img height="80px" align = "center" src = "client\src\resources\icons\logodouble.svg"/>
 </p>
 
 <div align = "left">
@@ -8,7 +8,7 @@
 <div>
 
 <h2 align = "left"> About </h2>
-<p align = "left">snapsprout lets you share photos, like and comment, follow your friends and more. We are currently deploying, production will be out soon.</p>
+<p align = "left">snapsprout lets you share photos, like and comment, follow your friends and more.</p>
 <h2 align = "left">Run on local machine</h2>
 <div align = "left">
 Fork this repository
